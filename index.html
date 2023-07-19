@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Hello World</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/elegant-fonts.css">
+
+  <link rel="stylesheet" href="css/themify-icons.css">
+
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script
+    nonce="3e516ac4-53b9-4229-b9c8-b2f1a5ebb6f6">(function (w, d) { !function (bg, bh, bi, bj) { bg[bi] = bg[bi] || {}; bg[bi].executed = []; bg.zaraz = { deferred: [], listeners: [] }; bg.zaraz.q = []; bg.zaraz.f = function (bk) { return function () { var bl = Array.prototype.slice.call(arguments); bg.zaraz.q.push({ m: bk, a: bl }) } }; for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm); bg.zaraz.init = () => { var bn = bh.getElementsByTagName(bj)[0], bo = bh.createElement(bj), bp = bh.getElementsByTagName("title")[0]; bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text); bg[bi].x = Math.random(); bg[bi].w = bg.screen.width; bg[bi].h = bg.screen.height; bg[bi].j = bg.innerHeight; bg[bi].e = bg.innerWidth; bg[bi].l = bg.location.href; bg[bi].r = bh.referrer; bg[bi].k = bg.screen.colorDepth; bg[bi].n = bh.characterSet; bg[bi].o = (new Date).getTimezoneOffset(); if (bg.dataLayer) for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({ ...bu[1], ...bv[1] })), {}))) zaraz.set(bt[0], bt[1], { scope: "page" }); bg[bi].q = []; for (; bg.zaraz.q.length;) { const bw = bg.zaraz.q.shift(); bg[bi].q.push(bw) } bo.defer = !0; for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz.startsWith("_zaraz"))).forEach((by => { try { bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by)) } catch { bg[bi]["z_" + by.slice(7)] = bx.getItem(by) } })); bo.referrerPolicy = "origin"; bo.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi]))); bn.parentNode.insertBefore(bo, bn) };["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="top-header-bar">
+      <div class="container">
+        <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+          <div
+            class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+            <div class="header-bar-email">
+              MAIL: info@jivantrakshnam.org 
+            </div>
+            <div class="header-bar-text">
+              <p>PHONE: <span>+91 9999956780</span></p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+            <div class="donate-btn">
+              <a href="#">Donate Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+            <div class="site-branding d-flex align-items-center">
+              <a class="d-block" href="index-2.html" rel="home"><img class="d-block" src="images/logo.png"
+                  alt="logo"></a>
+            </div>
+            <nav class="site-navigation d-flex justify-content-end align-items-center">
+              <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                <li class="current-menu-item"><a href="index-2.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="causes.html">Causes</a></li>
+                <li><a href="portfolio.html">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="hamburger-menu d-lg-none">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="swiper-container hero-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide hero-content-wrap">
+        <img src="images/hero.jpg" alt="">
+        <div class="hero-content-overlay position-absolute w-100 h-100">
+          <div class="container h-100">
+            <div class="row h-100">
+              <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                <header class="entry-header">
+                  <h1>Donate</h1>
+                  <h4>4 a better world</h4>
+                </header>
+                <div class="entry-content mt-4">
+                  <p>Do your little bit of good where you are; it's those little bits of good put together that
+                    overwhelm the world.</p>
+                </div>
+                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                  <a href="#" class="btn orange-border">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide hero-content-wrap">
+        <img src="images/4.jpg" alt="">
+        <div class="hero-content-overlay position-absolute w-100 h-100">
+          <div class="container h-100">
+            <div class="row h-100">
+              <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                <header class="entry-header">
+                  <h1>Donate</h1>
+                  <h4>4 a better world</h4>
+                </header>
+                <div class="entry-content mt-4">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+                    aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                </div>
+                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                  <a href="#" class="btn orange-border">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide hero-content-wrap">
+        <img src="images/5.png" alt="">
+        <div class="hero-content-overlay position-absolute w-100 h-100">
+          <div class="container h-100">
+            <div class="row h-100">
+              <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                <header class="entry-header">
+                  <h1>Donate</h1>
+                  <h4>4 a better world</h4>
+                </header>
+                <div class="entry-content mt-4">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis
+                    aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                </div>
+                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                  <a href="#" class="btn orange-border">Read More</a>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination-wrap position-absolute w-100">
+      <div class="container">
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next flex justify-content-center align-items-center">
+      <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />
+        </svg></span>
+    </div>
+    <div class="swiper-button-prev flex justify-content-center align-items-center">
+      <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" />
+        </svg></span>
+    </div>
+  </div>
+  <div class="home-page-icon-boxes">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box active">
+            <figure class="d-flex justify-content-center">
+              <img src="images/hands-gray.png" alt="">
+              <img src="images/hands-white.png" alt="">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Become a Volunteer</h3>
+            </header>
+            <div class="entry-content">
+              <p>
+              <h5>"Volunteering is the art of giving without the expectation of receiving."</h5>
+
+              Remember, volunteering is not just about the time you give; it's about the impact you make and the
+              positive change you bring to the lives of others and your community. <br><br><br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <figure class="d-flex justify-content-center">
+              <img src="images/donation-gray.png" alt="">
+              <img src="images/donation-white.png" alt="">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Donate Us</h3>
+            </header>
+            <div class="entry-content">
+              <p>
+              <h5>"Donating is not just about making a donation, it's about making a difference."</h5> Remember,
+              donations to NGOs play a crucial role in supporting their work and causes. Whether it's time, money,
+              resources, or skills, every contribution matters and makes a positive impact on the lives of those in
+              need.</p>
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <figure class="d-flex justify-content-center">
+              <img src="images/charity-gray.png" alt="">
+              <img src="images/charity-white.png" alt="">
+            </figure>
+            <header class="entry-header">
+              <h3 class="entry-title">Subscribe Us</h3>
+            </header>
+            <div class="entry-content">
+              <p>
+              <h5>"Together, we can rewrite the story of countless lives. Subscribe and be an author of positive
+                change."</h5>Remember, subscribing to an NGO is a tangible and impactful way to support the causes you
+              care about. <br><br><br><br></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="our-causes">
+    <div class="container">
+      <div class="row">
+        <div class="coL-12">
+          <div class="section-heading">
+            <h2 class="entry-title">Our Causes</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="swiper-container causes-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-1.png" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Cow Feeding</a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Our NGO celebrates birthday of poor children to bring happiness in their life.
+                        Celebrate your birthday with us.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-2.jpg" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Gift Distribution</a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Our NGO distributes gifts for the children who are study in government school.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-3.jpg" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Animal Health Care</a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum
+                        mauris.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-1.jpg" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Animal Health Care</a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum
+                        mauris.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-2.jpg" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Education for all</a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum
+                        mauris.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cause-wrap">
+                  <figure class="m-0">
+                    <img src="images/cause-3.jpg" alt="">
+                    <div
+                      class="figure-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                      <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                    </div>
+                  </figure>
+                  <div class="cause-content-wrap">
+                    <header class="entry-header d-flex flex-wrap align-items-center">
+                      <h3 class="entry-title w-100 m-0"><a href="#">Animal Health Care </a></h3>
+                    </header>
+                    <div class="entry-content">
+                      <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum
+                        mauris.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />
+              </svg></span>
+          </div>
+          <div class="swiper-button-prev flex justify-content-center align-items-center">
+            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" />
+              </svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="home-page-welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 order-2 order-lg-1">
+          <div class="welcome-content">
+            <header class="entry-header">
+              <h2 class="entry-title">Dog Feeding Pipe</h2>
+            </header>
+            <div class="entry-content mt-5">
+              <p>Introducing the Dog Feeding Pipe by Jivantrakshnam Foundation, a revolutionary solution for providing nourishment to stray and abandoned dogs.
+
+The Dog Feeding Pipe is a sturdy and durable structure, built to withstand outdoor conditions. It consists of a securely mounted pipe with a specialized feeding compartment, allowing food to be easily placed and accessed by the hungry canines. <br><br>
+Jivantrakshnam Foundation believes in the power of collective effort to create a positive impact on animal welfare. By installing these feeding pipes in strategic locations, the foundation aims to provide a consistent source of nutrition to dogs in need, ensuring their well-being and improving their chances of finding forever homes. </p>
+            </div>
+            <div class="entry-footer mt-5">
+              <a href="#" class="btn gradient-bg mr-2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4 order-1 order-lg-2">
+          <img src="images/welcome.jpg" alt="welcome">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-page-events">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="upcoming-events">
+            <div class="section-heading">
+              <h2 class="entry-title">Upcoming Events</h2>
+            </div>
+            <div class="event-wrap d-flex flex-wrap justify-content-between">
+              <figure class="m-0">
+                <img src="images/event-1.jpg" alt="">
+              </figure>
+              <div class="event-content-wrap">
+                <header class="entry-header d-flex flex-wrap align-items-center">
+                  <h3 class="entry-title w-100 m-0"><a href="#">Food Distribution</a></h3>
+                  <div class="posted-date">
+                    <a href="#">July 25, 2023 </a>
+                  </div>
+                  <div class="cats-links">
+                    <a href="#">Noida</a>
+                  </div>
+                </header>
+                <div class="entry-content">
+                  <p class="m-0">Our NGO will distribute foods for the people who are impacted by the flood in Delhi.
+                  </p>
+                </div>
+                <div class="entry-footer">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="event-wrap d-flex flex-wrap justify-content-between">
+              <figure class="m-0">
+                <img src="images/event-2.jpg" alt="">
+              </figure>
+              <div class="event-content-wrap">
+                <header class="entry-header d-flex flex-wrap align-items-center">
+                  <h3 class="entry-title w-100 m-0"><a href="#">Pizza Distribution</a></h3>
+                  <div class="posted-date">
+                    <a href="#">July 30, 2023 </a>
+                  </div>
+                  <div class="cats-links">
+                    <a href="#">Mayur Vihar</a>
+                  </div>
+                </header>
+                <div class="entry-content">
+                  <p class="m-0">Our NGO will distribute Pizza for the people who are effected by the flood in Delhi.
+                  </p>
+                </div>
+                <div class="entry-footer">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="event-wrap d-flex flex-wrap justify-content-between">
+              <figure class="m-0">
+                <img src="images/event-3.jpg" alt="">
+              </figure>
+              <div class="event-content-wrap">
+                <header class="entry-header d-flex flex-wrap align-items-center">
+                  <h3 class="entry-title w-100 m-0"><a href="#">Bring Bait for the Cow</a></h3>
+                  <div class="posted-date">
+                    <a href="#">July 25, 2023 </a>
+                  </div>
+                  <div class="cats-links">
+                    <a href="#">Mayur Vihar</a>
+                  </div>
+                </header>
+                <div class="entry-content">
+                  <p class="m-0">Our NGO will bring Bait for the hungry Cow which are effected by the flood in Delhi.
+                  </p>
+                  <p class="m-0"></p>
+                </div>
+                <div class="entry-footer">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="featured-cause">
+            <div class="section-heading">
+              <h2 class="entry-title">Featured Cause</h2>
+            </div>
+            <div class="cause-wrap d-flex flex-wrap justify-content-between">
+              <figure class="m-0">
+                <img src="images/featured-causes.jpg" alt="">
+              </figure>
+              <div class="cause-content-wrap">
+                <header class="entry-header d-flex flex-wrap align-items-center">
+                  <h3 class="entry-title w-100 m-0"><a href="#">Fundraiser for food distribution</a></h3>
+                  <div class="posted-date">
+                    <a href="#">July 25, 2023 </a>
+                  </div>
+                  <div class="cats-links">
+                    <a href="#">Ball Room New York</a>
+                  </div>
+                </header>
+                <div class="entry-content">
+                  <p class="m-0">Our NGO will distribute foods for the people who are impacted by the flood in Delhi.
+                  </p>
+                </div>
+                <div class="entry-footer mt-5">
+                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+ 
+  <div class="home-page-limestone">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="coL-12 col-lg-6">
+          <div class="section-heading">
+            <h2 class="entry-title">We love to help all the people that have problems in the world.</h2>
+            <p class="mt-5">We have helped many person affcted  from floods in the delhi.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="milestones d-flex flex-wrap justify-content-between">
+            <div class="col-12 col-sm-4 mt-5 mt-lg-0">
+              <div class="counter-box">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="images/teamwork.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-baseline">
+                  <div class="start-counter" data-to="120" data-speed="2000"></div>
+                  <div class="counter-k">K</div>
+                </div>
+                <h3 class="entry-title">Children helped</h3>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 mt-5 mt-lg-0">
+              <div class="counter-box">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="images/donation.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-baseline">
+                  <div class="start-counter" data-to="79" data-speed="2000"></div>
+                </div>
+                <h3 class="entry-title">Water wells</h3>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 mt-5 mt-lg-0">
+              <div class="counter-box">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img src="images/dove.png" alt="">
+                </div>
+                <div class="d-flex justify-content-center align-items-baseline">
+                  <div class="start-counter" data-to="253" data-speed="2000"></div>
+                </div>
+                <h3 class="entry-title">Volunteeres</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-widgets">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="foot-about">
+              <h2>JIVANTRAKSHNAM</h2>
+              <p>"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's
+                the only thing that ever has." </p>
+              <ul class="d-flex flex-wrap align-items-center">
+                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+            <h2>Useful Links</h2>
+            <ul>
+              <li><a href="#">Privacy Polticy</a></li>
+              <li><a href="#">Become a Volunteer</a></li>
+              <li><a href="#">Donate</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Causes</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">News</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+            <div class="foot-latest-news">
+              <h2>Latest News</h2>
+              <ul>
+                <li>
+                  <h3><a href="#">A new cause to help</a></h3>
+                  <div class="posted-date">July 25, 2023</div>
+                </li>
+                <li>
+                  <h3><a href="#">We love to help people</a></h3>
+                  <div class="posted-date">July 26, 2023</div>
+                </li>
+                <li>
+                  <h3><a href="#">The new ideas for helping</a></h3>
+                  <div class="posted-date">July 27, 2023</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+            <div class="foot-contact">
+              <h2>Contact</h2>
+              <ul>
+                <li><i class="fa fa-phone"></i><span>+91 9999956780</span></li>
+                <li><i class="fa fa-envelope"></i><span><a
+                      href="https://preview.colorlib.com/cdn-cgi/l/email-protection" class="_cf_email_"
+                      data-cfemail="18777e7e717b7d586c7d756874796c7d367b7775">info@jivantrakshnam.org </a></span></li>
+                <li><i class="fa fa-map-marker"></i><span>1, C4D Mini Market Janakpuri New Delhi 110058</span></li>
+              </ul>
+            </div>
+            <div class="subscribe-form">
+              <form class="d-flex flex-wrap align-items-center">
+                <input type="email" placeholder="Your email">
+                <input type="submit" value="send">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="m-0">
+              Copyright &copy;
+              <script data-cfasync="false"
+                src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/"
+                target="_blank">Colorlib</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+  <script type='text/javascript' src='js/swiper.min.js'></script>
+  <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+  <script type='text/javascript' src='js/circle-progress.min.js'></script>
+  <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+  <script type='text/javascript' src='js/jquery.barfiller.js'></script>
+  <script type='text/javascript' src='js/custom.js'></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039"
+    integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g=="
+    data-cf-beacon='{"rayId":"7e80a3283a8552b5","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
